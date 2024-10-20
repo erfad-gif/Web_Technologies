@@ -1,0 +1,24 @@
+<web-app>
+    
+    <servlet>
+        <servlet-name>servletDemo</servlet-name>
+        <servlet-class>UserDetailsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>servletDemo</servlet-name>
+        <url-pattern>/result</url-pattern>
+    </servlet-mapping>
+    <!--  -->
+    <servlet>
+        <servlet-name>deathPredictor</servlet-name>
+        <servlet-class>DoOrDie</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>deathPredictor</servlet-name>
+        <url-pattern>/deathWish</url-pattern>
+    </servlet-mapping>
+</web-app>
+
+

@@ -1,0 +1,70 @@
+/* General spooky styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Creepster', cursive;
+}
+
+.spooky-background {
+    background-image: url('https://media1.tenor.com/m/djw0-GwHzogAAAAC/halloween-happy.gif'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    min-height: 100vh;
+    padding: 20px;
+    position: relative; 
+    z-index: 1; 
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken; 
+}
+
+.spooky-container {
+    background-color: #2c2a2a;
+    padding: 30px;
+    border-radius: 15px; 
+    max-width: 600px; 
+    margin: 50px auto; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); 
+}
+
+.spooky-text {
+    font-family: 'Creepster', cursive;
+    color: #ff7518;
+    text-shadow: none; 
+}
+
+.spooky-input {
+    background-color: #fff; 
+    border: 2px solid #ff7518;
+    color: black;
+    padding: 10px;
+    border-radius: 5px; 
+    box-shadow: none;
+}
+
+.spooky-input::placeholder {
+    color: #a9a9a9; 
+}
+
+.spooky-form .form-check-label {
+    color: #ff7518;
+}
+
+.spooky-button {
+    background-color: #ff7518;
+    border: none;
+    color: black;
+    font-family: 'Creepster', cursive;
+    padding: 10px 15px;
+    border-radius: 5px; 
+    width: 100%; 
+}
+
+.spooky-button:hover {
+    background-color: #ff5500;
+}
+
+.spooky-divider {
+    border-color: #ff7518;
+    margin: 20px 0;
+}
