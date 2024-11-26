@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@700&display=swap');
+
+body {
+    background-color: #121212; 
+    color: #ff6f61; 
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: #1e1e1e; 
+    border-bottom: 3px solid #ff6f61; 
+}
+
+.header h2 {
+    font-family: 'Merriweather', serif; 
+    font-size: 70px;
+    color: #ff6f61;
+    margin: 0;
+}
+
+.popular-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.popular-section h2 {
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ff6f61;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.popular-songs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.popular {
+    text-align: center;
+    padding: 15px;
+    max-width: 220px;
+    background-color: #1e1e1e; 
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
+}
+.popular:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7); 
+}
+
+.cover {
+    width: 100%;
+    border: 4px solid #ff6f61; 
+    border-radius: 10%;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.cover:hover {
+    border-color: #f4b393;  
+    transform: scale(1.05); 
+
+.popular-song-name {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 10px 0 5px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.popular-song-name:hover {
+    color: #f4b393; 
+}
+
+.popular-singer-name {
+    font-size: 1em;
+    color: #b0b0b0;  
+    margin: 0;
+    padding: 5px 0;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff6f61;
+}
+}

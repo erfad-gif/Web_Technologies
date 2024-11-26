@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Song Experience</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ex4_2.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Interactive Song Experience</h1>
+        <p class="subtitle">Feel the rhythm, embrace the moment.</p>
+    </header>
+
+    <main class="container">
+        <div class="time-section">
+            <button id="timeButton" class="time-btn">Show Current Time</button>
+            <p id="timeDisplay" class="time-display"></p>
+        </div>
+
+        <div class="cursor-container">
+            <h2 id="cursorStatus">Enjoy the rhythm of your favorite songs!</h2>
+            <div class="box">
+                <p id="hoverParagraph" class="hover-paragraph">Hover over me!</p>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <p id="hoverText" class="hover-text">Hover over the image!</p>
+            <img id="hoverImage" src="./images/heart.jpeg" alt="Heart Icon" class="hover-image">
+        </div>
+    </main>
+
+    <script src="ex4_2.js"></script>
+</body>
+</html>

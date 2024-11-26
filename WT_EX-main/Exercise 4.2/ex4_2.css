@@ -1,0 +1,112 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.header {
+    text-align: center;
+    background: linear-gradient(45deg, #ff6f61, #f06292);
+    color: white;
+    padding: 40px 20px;
+    border-bottom: 4px solid #ff4081;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-style: italic;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+.time-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.time-btn {
+    font-size: 1rem;
+    padding: 12px 24px;
+    color: #ffffff;
+    background-color: #7827e7;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.time-btn:hover {
+    background-color: #4e19b5;
+    transform: scale(1.05);
+}
+
+.time-display {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.cursor-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.hover-paragraph {
+    padding: 10px 20px;
+    background-color: #7827e7;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hover-paragraph:hover {
+    background-color: #4e19b5;
+    transform: translateY(-3px);
+}
+
+.image-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.hover-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+    display: none;
+    transition: opacity 0.3s ease;
+}
+
+.hover-image {
+    max-width: 200px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .hover-image {
+        max-width: 150px;
+    }
+
+    .time-btn {
+        width: 80%;
+    }
+}

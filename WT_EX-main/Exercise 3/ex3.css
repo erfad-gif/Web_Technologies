@@ -1,0 +1,110 @@
+body {
+    background-color: #1f1f1f; 
+    color: #e4e4e4; 
+    font-family: 'Inter', sans-serif; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+.header {
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); 
+    color: #ffffff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    border-bottom: 5px solid #3f51b5;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.header .tagline {
+    font-size: 1rem;
+    font-style: italic;
+    opacity: 0.85;
+    margin-top: 10px;
+    color: #d1d1d1;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 30px 0;
+    color: #3f51b5; 
+    text-transform: uppercase;
+    border-bottom: 3px solid #3f51b5;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.popular-songs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.popular {
+    text-align: center;
+    background: #2a2a2a; 
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.popular:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
+}
+
+.cover {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cover:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.song-info {
+    margin-top: 15px;
+}
+
+.song-name {
+    font-size: 1.4rem;
+    color: #6a11cb; 
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.song-name:hover {
+    color: #2575fc;
+}
+
+.artist-name {
+    font-size: 1rem;
+    color: #a6a6a6; 
+    margin-top: 5px;
+    font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .popular-songs {
+        flex-direction: column; 
+        gap: 25px;
+    }
+
+    .cover {
+        width: 100%;
+}
+}

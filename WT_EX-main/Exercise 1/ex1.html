@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melody Vibes</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fff5f0;
+            color: #3a3a3a;
+        }
+
+        header {
+            text-align: center;
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .music-card {
+            background: #ffe3e0;
+            border-radius: 10px;
+            border: 1px solid #ff9b92;
+            margin: 20px 0;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .music-card img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            display: block;
+            border-radius: 10px 0 0 10px;
+        }
+
+        .music-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .music-title {
+            font-size: 1.8rem;
+            color: #e63946;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .music-genre {
+            font-size: 1rem;
+            color: #7b2cbf;
+            margin-bottom: 15px;
+        }
+
+        .music-description {
+            font-size: 1rem;
+            color: #3a3a3a;
+        }
+
+        .music-links {
+            margin-top: 15px;
+        }
+
+        .music-links a {
+            text-decoration: none;
+            color: white;
+            background-color: #e63946;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-right: 10px;
+            transition: background-color 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .music-links a:hover {
+            background-color: #7b2cbf;
+        }
+
+        @media (max-width: 768px) {
+            .music-card {
+                flex-direction: column;
+            }
+
+            .music-card img {
+                border-radius: 10px 10px 0 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Melody Vibes</h1>
+    </header>
+
+    <div class="container">
+        <div class="music-card">
+            <img src="snap.jpg" alt="Snap Album Cover" usemap="#snap-map">
+            <map name="snap-map">
+                <area target="_blank" href="https://wynk.in/music/song/snap/sm_196871993142_USSM12207342?q=snap+ro" coords="0,0,400,400" shape="rect" alt="Listen to Snap">
+                <area target="_blank" href="https://en.wikipedia.org/wiki/Rosa_Linn" coords="400,0,800,400" shape="rect" alt="About Rosa Linn">
+            </map>
+            <div class="music-content">
+                <h2 class="music-title">Snap</h2>
+                <p class="music-genre">Genre: Dream Pop / Indie</p>
+                <p class="music-description">
+                    "Snap" by Rosa Linn is a lyrical exploration of fleeting memories and the bittersweet moments of life. Released in 2022, the song beautifully blends calming rhythms with a haunting melody, painting a picture of nostalgia. It's a perfect listen for those quiet, introspective nights.
+                </p>
+                <div class="music-links">
+                    <a href="https://wynk.in/music/song/snap/sm_196871993142_USSM12207342?q=snap+ro" target="_blank">Stream Now</a>
+                    <a href="https://en.wikipedia.org/wiki/Rosa_Linn" target="_blank">Know the Artist</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="music-card">
+            <img src="Make_It_Right.png" alt="Make It Right Album Cover" usemap="#mir-map">
+            <map name="mir-map">
+                <area target="_blank" href="https://wynk.in/music/song/make-it-right-feat-lauv/or_194491485726_QMBZ91934309" coords="0,0,400,400" shape="circle" alt="Listen to Make It Right">
+            </map>
+            <div class="music-content">
+                <h2 class="music-title">Make It Right</h2>
+                <p class="music-genre">Genre: Soulful Pop / K-Pop</p>
+                <p class="music-description">
+                    BTS and Lauv's "Make It Right" is a soothing anthem of redemption and emotional connection. Its heartfelt lyrics, coupled with a melodic tune, evoke a sense of hope and self-discovery. A timeless track for those seeking solace in music.
+                </p>
+                <div class="music-links">
+                    <a href="https://wynk.in/music/song/make-it-right-feat-lauv/or_194491485726_QMBZ91934309" target="_blank">Stream Now</a>
+                    <a href="https://en.wikipedia.org/wiki/BTS" target="_blank">About BTS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
